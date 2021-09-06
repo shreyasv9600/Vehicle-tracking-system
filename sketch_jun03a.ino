@@ -10,8 +10,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
  int RX= 2, TX= 3;
 static const uint32_t GPSBaud = 9600;
-const char* ssid     = "ASUS_VIJAY_2G";//Network SSID
-const char* password = "8951107035";//Network Password
+const char* ssid     = "EXAMPLESSID";//Network SSID
+const char* password = "PASSWORD";//Network Password
 unsigned long ch_no = 1406999;// Thingspeak Channel ID
 const char * write_api = "0DZVL35RY2OHP33R";// Thingspeak write API
 
